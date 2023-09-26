@@ -3,6 +3,8 @@
 한 단위가 4byte인 LBA(Logical Block Address)를 사용하며 LBA의 범위는 0~99 입니다.<br>
 다만 저장되는 Data(`nand.txt`, `result.txt`)는 실제 400byte가 아니고 4byte 값을 나타내는 `10자리 string 100개`의 집합입니다.
 
+---
+
 ### SSD/main.c
 | `int main(int, char*[])`
 * argv[0] ~ argv[3]을 입력받아 데이터의 쓰기, 읽기를 수행합니다
